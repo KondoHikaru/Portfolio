@@ -4,3 +4,16 @@
 body{
   font-family: sans-serif;
 }
+
+.leftmenu ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.leftmenu img{
+  float: left;
+}
+
+.leftmenu{
+  display: flex;
+}
