@@ -5,8 +5,15 @@ body{
   font-family: sans-serif;
 }
 
-.leftmenu ul{
+.leftmenu ul li{
   list-style-type: none;
+  top: 0;
+  left: 0;
+  display: block;
+  background: url(../img/top/menu_bg.png) no-repeat left top;
+  width: auto;
+  height: auto;
+  opacity: 1;
 }
 
 .leftmenu img{
@@ -14,8 +21,8 @@ body{
 }
 
 .leftmenu{
-  }
+}
 
 .test{
-  margin-left: auto;
+  background-color: #98fb98;
 }
