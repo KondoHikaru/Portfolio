@@ -2,6 +2,8 @@
 
 /*Copyright©Hikaru Kondo. All Rights Reserved.*/
 
+
+
 html, body {
     margin: 0;
     padding: 0;
@@ -184,4 +186,15 @@ footer{
 	padding: 25px 15px;
 	color: #ffffff;
 	text-align: center;
+}
+
+
+.wrapper{
+ padding: 20px;
+}
+.square{
+  background-color: rgb(90, 135, 255);
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
 }

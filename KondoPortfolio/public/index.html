@@ -10,8 +10,15 @@
 
 <div id="wrapper">
 <body>
+
 <header>
 </header>
+
+
+<div class="wrapper">
+  <div class="square" id="elem"></div>
+</div>
+
 
 <section id="main">
   <div class="top">
@@ -24,6 +31,7 @@
     </h1>
   </div>
 </section>
+</div>
 
 <div id="frame" class="op fix">
   <div class="bottom">
@@ -32,7 +40,7 @@
   </div>
 <nav class="menu show">
 <ul>
-  <li>
+  <li id="test">
     <a class="cover" href="#" data-article="5">
       <div class="base"></div>
       <div class="text">
@@ -80,13 +88,21 @@
 </ul>
 </nav>
 </div>
-</div>
 
+</div>
 <!--
 <footer>
   Copyright©Hikaru Kondo. All Rights Reserved.
 </footer>
 -->
-
+<script src="assets/js/plugin/anime-master/lib/anime.min.js"></script>
+<!--<script src="assets/js/common.js"></script>-->
+<script>
+var test = document.getElementById('test');
+anime({
+  targets: test,
+  translateX: -250
+})
+</script>
 </body>
 </html>
