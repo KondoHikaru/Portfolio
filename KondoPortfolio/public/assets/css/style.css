@@ -67,6 +67,7 @@ span {
 }
 
 #main .top .title.fix .t .c .c1 {
+  /*透明度*/
   opacity: 0;
 }
 
@@ -194,6 +195,7 @@ footer{
   width: 100%;
   position: fixed;
   background-color: #00ff00;
+  z-index: 1000
 }
 
 .hamburger img {
