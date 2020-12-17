@@ -43,18 +43,64 @@ span {
   position: fixed;
   width: 100%;
   height: 70px;
-  background-color: #00ff00;
-  outline: solid;
-  z-index: 1000
+  background-color: #696969;
+  z-index: 100;
 }
 
-
-.hamburger {
-  position: absolute;
+/* 上部メニュー */
+#top .topMenu {
   margin: 2px;
   padding: 2px;
+  z-index: 100;
 }
 
+#top .leftMenu {
+  position: fixed;
+  outline: solid;
+  width: 260px;
+  height: 100%;
+  z-index: 99;
+}
+
+
+/* 左サイドのメニュー */
+#top .leftMenu li {
+  position: relative;
+  padding: 1px;
+  width: 240px;
+  height: 58px;
+	background: url(../img/top/menu_bg_base.png) no-repeat left top;
+}
+
+#top .leftMenu ul li .base {
+  position: fixed;
+  width: 240px;
+  height: 58px;
+	background: url(../img/top/menu_base.png) no-repeat left top;
+}
+
+#top .leftMenu ul li .text {
+  position: relative;
+  left: 36px;
+  top: 15px;
+  font-weight: 500;
+  font-family: 'Rajdhani', sans-serif;
+  text-align: left;
+}
+
+#top .leftMenu ul li .menuText1{
+  position: relative;
+  font-size: 19px;
+  line-height: 1;
+  color: #dc0000;
+}
+
+#top .leftMenu ul li .menuText2{
+  position: relative;
+  font-size: 11px;
+  line-height: 1;
+	color: #ffffff;
+}
 
 #main .top {
 	position: absolute;
@@ -89,15 +135,13 @@ span {
   opacity: 0;
 }
 
-nav ul {
-	list-style: none;
+#menuitem {
+  outline: solid;
+  width: 0%;
 }
 
-#wrapper {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+nav ul {
+	list-style: none;
 }
 
 #frame {
@@ -135,11 +179,11 @@ nav ul {
   position: absolute;
   bottom: 0;
   left: 0;
-	background-color: #00ff00;
+	background-color: #696969;
 /*  background: url(../img/top/frame_bottom_01.png) repeat-x left top;*/
   width: 100%;
   height: 100px;
-  z-index: 1000;
+  z-index: 100;
 }
 
 #frame.fix {
@@ -181,12 +225,13 @@ nav ul {
 
 #frame .menu ul li .text{
 	font-weight: 500;
+  top: 14px;
+  left: 40px;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 #frame .menu ul li .text .t1 {
   position: absolute;
-  top: 14px;
-  left: 40px;
   font-family: 'Rajdhani', sans-serif;
   font-size: 19px;
   font-weight: 500;
@@ -216,10 +261,6 @@ footer{
   background-color: #00ff00;
 }
 */
-
-.wrapper{
- padding: 20px;
-}
 .square{
   background-color: rgb(90, 135, 255);
   width: 50px;

@@ -24,6 +24,12 @@ $("#hoge").click(function(){
   }
 });
 
+// var elem = document.getElementById('hoge');
+// anime({
+//   targets: elem,
+//   translateX: 250
+// })
+
 function MenuControl(test){
 
 }
